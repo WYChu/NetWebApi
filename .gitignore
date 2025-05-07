@@ -1,3 +1,51 @@
-# Ignore build directories
-obj/
+## 編譯資料夾 ##
 bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+## 使用者設定 ##
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VSCode ##
+.vscode/
+
+## Rider ##
+.idea/
+
+## Mac 系統檔案 ##
+.DS_Store
+
+## Windows 系統檔案 ##
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## NuGet 套件 #
+*.nupkg
+packages/
+*.snupkg
+
+## 測試結果 ##
+TestResults/
+
+## 發布資料夾 ##
+publish/
+out/
+
+## 資訊保護或敏感檔案 ##
+*.key
+*.pfx
+*.cert
+*.vspscc
+
+## 忽略的環境變數或 config ##
+appsettings.*.json
+secrets.json
+
+## git 忽略規則自定標籤 ##
+# 你可以在這邊加上你自定要忽略的檔案或資料夾
